@@ -1,0 +1,108 @@
+.about-me {
+    text-align: center;
+    color: var(--pine-tree);
+    padding: 2rem 2rem;
+}
+
+.about-columns {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.about-heading {
+    font-family: 'Yeseva one', san-serif;
+    flex: 1;
+    min-width: 200px;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-content {
+    font-family: 'Space Mono', monospace;
+    flex: 2;
+    min-width: 300px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.about-skills-interests {
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* .about-skills-interests h3 {
+    /* font-size: 1.5rem;
+} */
+
+.section-block {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    min-width: 280px;
+    max-width: 550px;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.section-block h3 {
+    min-width: 120px;
+    margin: 0.5;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+/* Responsive stacking for smaller screens */
+@media (max-width: 768px) {
+    .about-skills-interests {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-block {
+        max-width: 100%;
+    }
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Space Mono', monospace;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.tag {
+    background-color: var(--pine-tree);
+    color: var(--southern-sand);
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.tag:hover {
+    transform: translateY(-4px);
+}

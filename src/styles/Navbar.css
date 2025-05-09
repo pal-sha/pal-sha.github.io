@@ -1,0 +1,56 @@
+.navbar {
+    background-color: var(--pine-tree);
+    color: var(--isabelline);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Space Mono', monospace;
+}
+
+.navbar.scrolled {
+    background-color: rgba(119, 129, 96, 0.8);
+    /* color: white;
+    box-shadow: 0 2px 1-px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: var(--isabelline);
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+    align-items: center;
+}
+
+.navbar a svg {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+.navbar.scrolled a {
+    color: var(--pine-tree);
+}
+
+.navbar a {
+    color: var(--southern-sand);
+}
+
+.navbar a:hover {
+    color: var(--vintage-coin);
+    text-decoration: underline;
+}

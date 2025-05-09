@@ -1,0 +1,67 @@
+.contact-icons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-icons p {
+    font-size: 1.1em;
+}
+
+.contact-icons a {
+    color: var(--pine-tree);
+    display: inline-block;
+    transition: transform 0.2s, color, 0.2s;
+}
+
+.contact-icons a {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.contact-icons a:hover {
+    color: var(--taupe);
+    transform: scale(1.1);
+}
+
+/* General Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-icons {
+        margin-top: 15px;
+    }
+
+    .contact-icons a {
+        margin-right: 10px;
+    }
+}
+
+#contact {
+    background-color: var(--southern-sand);
+    padding: 50px;
+    margin-bottom: 50px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.contact-divider {
+    border: none;
+    height: 2px;
+    background-color: var(--pine-tree);
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+}

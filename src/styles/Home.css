@@ -1,0 +1,102 @@
+#home {
+  /* background-image: url('../assets/home_background2.jpg'); */
+  /* path relative to public/ */
+  position: relative;
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-color: black;
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  /* padding: 2rem; */
+  /* animation: pan 30s linear infinite; */
+}
+
+/* Starfield background */
+.starfield-bg {
+  position: absolute !important;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 0;
+  pointer-events: none; /* allows clicks to pass through */
+}
+
+/* Make sure the canvas fills the parent */
+.starfield-bg canvas {
+  width: 100% !important;
+  height: 500px !important;
+  display: block;
+}
+
+/* @keyframes pan {
+  0% {
+    background-position: 50% 0%;
+  }
+
+  100% {
+    background-position: 50% 100%;
+  }
+} */
+
+#home .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay */
+  z-index: 1;
+}
+
+#home .intro-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#home h1 {
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+#home p {
+  font-family: 'Space Mono', sans-serif;
+  font-size: 1.2rem;
+}
+
+.rotating-text {
+  animation: fadeInOut 2.5s ease-in-out;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.2rem;
+  height: 1.5rem;
+  transition: opacity 0.5s ease;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+/* .intro-stars-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #292e1e; 
+}
+
+.intro-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+} */
