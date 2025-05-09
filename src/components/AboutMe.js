@@ -36,7 +36,7 @@ function AboutMe() {
                 </div>
 
                 <div className="section-block">
-                    <h3>Things I Like/Interested In</h3>
+                    <h3>Things I Like/Interested In!</h3>
                     <div className="tag-container">
                         <span className="tag"><strong>RTOS</strong></span>
                         <span className="tag"><strong>Tinkering around with different programming languages</strong></span>
