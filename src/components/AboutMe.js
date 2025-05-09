@@ -36,11 +36,11 @@ function AboutMe() {
                 </div>
 
                 <div className="section-block">
-                    <h3>Things I Like/Interested In!</h3>
+                    <h3>Things I Like</h3>
                     <div className="tag-container">
                         <span className="tag"><strong>RTOS</strong></span>
                         <span className="tag"><strong>Tinkering around with different programming languages</strong></span>
-                        <span className="tag"><strong>RISC-V CPU and designs</strong></span>
+                        <span className="tag"><strong>Digital systems design</strong></span>
                         <span className="tag"><strong>Anything and everything about computers</strong></span>
                         <span className="tag"><strong>Books, books, and more books</strong></span>
                         <span className="tag"><strong>Mountains</strong></span>
