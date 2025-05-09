@@ -28,7 +28,7 @@ function AboutMe() {
                     <h3>Things I'm Good At</h3>
                     <div className="tag-container">
                         <span className="tag"><strong>C++ and Python programming</strong></span>
-                        <span className="tag"><strong>RTOS</strong></span>
+                        <span className="tag"><strong>Low level programming</strong></span>
                         <span className="tag"><strong>Quickly picking up new skills</strong></span>
                         <span className="tag"><strong>Reading 400 pages in a day</strong></span>
                         <span className="tag"><strong>Never knowing names of songs</strong></span>
@@ -36,10 +36,11 @@ function AboutMe() {
                 </div>
 
                 <div className="section-block">
-                    <h3>Things I Like</h3>
+                    <h3>Things I Like/Interested In</h3>
                     <div className="tag-container">
-                        <span className="tag"><strong>Low level programming</strong></span>
-                        <span className="tag"><strong>C++ & Python</strong></span>
+                        <span className="tag"><strong>RTOS</strong></span>
+                        <span className="tag"><strong>Tinkering around with different programming languages</strong></span>
+                        <span className="tag"><strong>RISC-V CPU and designs</strong></span>
                         <span className="tag"><strong>Anything and everything about computers</strong></span>
                         <span className="tag"><strong>Books, books, and more books</strong></span>
                         <span className="tag"><strong>Mountains</strong></span>
