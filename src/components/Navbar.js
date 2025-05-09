@@ -34,7 +34,7 @@ function NavBar() {
                 <li><a href="#home"><FaHome/>Home</a></li>
                 <li><a href="#aboutme"><FaRegUserCircle/>AboutMe</a></li>
                 <li><a href="#education"><FaGraduationCap/>Education</a></li>
-                <li><a href="#experience"><FaBriefcase/>Experience</a></li>
+                {/* <li><a href="#experience"><FaBriefcase/>Experience</a></li> */}
                 <li><a href="#projects"><FaCode/>Projects</a></li>
                 <li><a href="#skills"><FaTools/>Skills</a></li>
                 <li><a href="#contact"><FaEnvelope/>Contact</a></li>
