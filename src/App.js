@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import './App.css';
 import './styles/styles.css';
 import NavBar from './components/Navbar';
+import Banner from './components/Banner';
 import Home from './components/Home';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -25,6 +26,7 @@ function App() {
   return (
     <>
       <NavBar /> 
+      <Banner />
       <main>
         <section id="home"><Home /></section>
         <section id="aboutme"><AboutMe/></section>
